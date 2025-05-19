@@ -28,6 +28,7 @@ def browser_options():
     browser.config.base_url='https://demoqa.com'
 
     yield browser
+
     attach.add_html(browser)
     attach.add_screenshot(browser)
     attach.add_logs(browser)
