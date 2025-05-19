@@ -33,7 +33,6 @@ def browser_options():
     attach.add_logs(browser)
     attach.add_video(browser)
 
-
     browser.quit()
 
 
